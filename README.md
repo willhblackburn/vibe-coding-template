@@ -1,7 +1,5 @@
 # Rails Vibe Code Template
 
-# Rails Vibe Code Template
-
 This template helps you quickly start a new Rails project with best practices for ✨ *vibe coding* ✨ using tools like Cursor's Agent, Codeium's Cascade, or other similar tools.
 
 ## Getting Started
@@ -26,20 +24,18 @@ This template helps you quickly start a new Rails project with best practices fo
 
    ```bash
    bundle install
-   yarn install
    ```
 
 4. Set up your database:
 
    ```bash
-   rails db:create
-   rails db:migrate
+   rails db:setup
    ```
 
 5. Start your server:
 
    ```bash
-   rails server
+   ./bin/dev
    ```
 
 ## Project Rules for Effective Vibe Coding
