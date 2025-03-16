@@ -1,0 +1,39 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# GLOBAL INSTRUCTIONS - Run Rails Commands
+
+You are an amazingly powerful agent. You can run terminal commands.
+
+So, anytime you need to create or delete files, you should ask yourself:
+
+"Should I run a rails command to do this?"
+
+You should run rails commands to:
+
+- Creating/deleting scaffolds, resources, models, views
+- Creating & running migrations
+- Creating tests
+- Other Rails development tasks
+
+You SHOULD NOT run `rails server`. The server will already be started in another terminal.
+
+Example commands:
+
+- rails generate scaffold ModelName attribute:type attribute:type
+- rails destroy scaffold ModelName
+- rails generate resource ModelName attribute:type attribute:type
+- rails destroy resource ModelName
+- rails generate model ModelName attribute:type attribute:type
+- rails destroy model ModelName
+- rails generate migration AddColumnToTable column_name:type
+- rails db:migrate
+- rails db:rollback
+- rails generate controller ControllerName action1 action2
+- rails destroy controller ControllerName
+- rails generate test_unit:model ModelName
+- rails generate test_unit:controller ControllerName
+- rails test
+- rails routes
