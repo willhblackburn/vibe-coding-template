@@ -26,9 +26,10 @@ This template helps you quickly start a new Rails project with best practices fo
    bundle install
    ```
 
-4. Set up your database:
+4. Optional - Set up your database:
 
    ```bash
+   rails db:migrate
    rails db:setup
    ```
 
